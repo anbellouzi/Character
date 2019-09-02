@@ -1,0 +1,118 @@
+body {
+  /* background-color: lightblue; */
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+div {
+
+}
+
+.container, .container_main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+}
+.container div {
+  float: left;
+  clear: none;
+}
+
+.top_container {
+  height: 150px;
+  background-color: #404040;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.top_container h1 {
+  margin: 0 0 15px 0;
+  padding: 35px 0 0 0;
+  color: white;
+}
+
+#slogan {
+  color: white;
+  background-color: #3CB371;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+#name {
+  color: #3CB371;
+}
+
+
+.profile_image img {
+  height: 310px;
+  width: 310px;
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+#button {
+  border: 2px solid #3CB371;
+  padding: 5px;
+  border-radius: 5px;
+  color: #3CB371;
+  margin: 10px;
+}
+
+div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+div li {
+  padding:3px;
+}
+
+.block {
+  margin:10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+
+.right_container {
+  /* background-color: red; */
+  width: 70%;
+  /* position: absolute; */
+  /* float: right; */
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.about h2 {
+  color: #3CB371;
+  padding: 5px 0 5px 0;
+  margin: 0 0 0 0px;
+
+}
+
+.about p {
+  margin: 0;
+  padding-top: 15px;
+  width: 90%;
+  border-top: 1px solid #3CB371;
+}
+.left_container {
+  width: 23%;
+  height: 100%;
+  background-color: #404040;
+  margin-top: 15px;
+  color: white;
+  padding-bottom: 20px;
+  text-align: center;
+  float: none;
+}
+.nav {
+  width:100%;
+  text-align:center;
+
+}
