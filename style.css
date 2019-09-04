@@ -151,3 +151,12 @@ div li {
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
+
+.footer_container {
+    /* background-color: #404040; */
+    width: 74.5%;
+    height: 221px;
+    margin: 14px 0 0 36px;
+    padding: 0;
+
+}

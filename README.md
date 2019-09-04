@@ -5,4 +5,5 @@ Project: Character Resume
 
 Instruction: Open index.html with browser
 
-Source:  https://www.detectiveconanworld.com/wiki/Shinichi_Kudo#Personality
+content Source:  https://www.detectiveconanworld.com/wiki/Shinichi_Kudo#Personality
+contact form code source: https://www.sanwebe.com/2014/08/css-html-forms-designs

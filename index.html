@@ -6,6 +6,9 @@
   <head>
     <title>Konan Edogawa</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form_style.css">
+    <script src="script.js"></script>
+
   </head>
   <body>
     <div class="container_main">
@@ -91,7 +94,6 @@
 
 
         </div>
-
         <div class="right_container">
           <div class="about">
             <h2>ABOUT ME</h2>
@@ -161,10 +163,31 @@
                 Shinichi cannot sing on key in the slightest so he is often accused of being tone deaf. Despite being a hilariously awful singer,
                 Shinichi has perfect pitch and can identify notes accurately even in difficult contexts like the sound of phone button presses forming a melody.
                 Also, to be like his favorite detective, Sherlock Holmes, he plays the violin. This was confirmed in Full Score of Fear, when he
-                played "Amazing Grace" for Ran. However, he is stumped on what Ran meant when she said, "He has a funny habit when he plays."
-
-
+                played "Amazing Grace" for Ran.
           </div>
+        </div>
+
+
+        <div class="footer_container">
+          <!-- code source: https://www.sanwebe.com/2014/08/css-html-forms-designs -->
+          <form class="form-style-4" action="" method="post">
+            <label for="field1">
+              <span>Enter Your Name</span><input type="text" name="field1" required="true" />
+            </label>
+            <label for="field2">
+              <span>Email Address</span><input type="email" name="field2" required="true" />
+            </label>
+            <label for="field3">
+              <span>Short Subject</span><input type="text" name="field3" required="true" />
+            </label>
+            <label for="field4">
+              <span>Message to Us</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+            </label>
+            <label>
+              <span> </span><input type="submit" value="Send Letter" />
+            </label>
+          </form>
+          <!-- End of copied code -->
         </div>
       </div>
 
